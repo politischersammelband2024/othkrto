@@ -1,0 +1,48 @@
+html, body {
+    margin:0;
+}
+
+
+
+div.kontakt::before{
+content:"benjamin.pach";
+}
+div.kontakt::after{
+content:"ner@gmx.net";
+}
+
+a:visited {
+  color: forestgreen;
+ text-decoration-color: red;
+}
+
+a:hover {
+ text-decoration-color: green ;
+ text-decoration:underline;
+}
+
+a.impr{
+text-decoration:none;
+text-decoration-color: blue ;
+}
+
+a.impr:hover {
+ text-decoration: underline;
+ }
+
+
+a.sekrety:hover {
+  background-color:grey;
+  text-decoration-color: orange ;
+  display:inline;
+  visibility:visible;
+}
+
+div{
+   background-attachment: fixed;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
